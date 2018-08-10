@@ -6,6 +6,7 @@ if("purrr" %in% rownames(installed.packages()) == FALSE) {install.packages("purr
 if("stringr" %in% rownames(installed.packages()) == FALSE) {install.packages("stringr")}
 if("quantmod" %in% rownames(installed.packages()) == FALSE) {install.packages("quantmod")}
 if("lubridate" %in% rownames(installed.packages()) == FALSE) {install.packages("lubridate")}
+if("Hmisc" %in% rownames(installed.packages()) == FALSE) {install.packages("Hmisc")}
 
 
 # Attach libraries
@@ -16,6 +17,7 @@ library(purrr)
 library(stringr)
 library(quantmod)
 library(lubridate)
+library(Hmisc, quietly=TRUE)
 
 
 
