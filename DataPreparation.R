@@ -268,7 +268,8 @@ for (i in 1:length(FDICFilesUZ))
          filter(STNUMBR == 13)  %>%
          select(YEAR, STCNTYBR, CNTYNAMB, BRNUM, DEPSUMBR) %>%
          group_by(YEAR, STCNTYBR, CNTYNAMB) %>%
-         summarize(totalbranches = n(), totaldeposits = sum(DEPSUMBR)) %>%
+         # make sure you either use summarise instead of summarize or if using the Hmisc package reference dplyr like below
+         dplyr::summarize(totalbranches = n(), totaldeposits = sum(DEPSUMBR)) %>% 
          rename(year = YEAR, fipscode = STCNTYBR, county = CNTYNAMB) 
   
   # Validate Calculation using Bibb County set TestFile variable above
