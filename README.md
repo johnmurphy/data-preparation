@@ -1,5 +1,5 @@
 ### Background/Objective:
-I wanted to understand and analyze the correlations, if any, for the following attributes listed below and prepare the data, from different sources, for further analysis and reporting. I was particularly interested in correlations relating to NAICS 722 - Food services and drinking places. Do any of these attributes positively or negatively correlate? What is the strength of the correlation? Is there multi-collinearity and if so how strong is it?  What do the relationships look like visually?  
+I wanted to understand and analyze the correlations, if any, for the following attributes listed below and prepare the data, from different sources, for further analysis and reporting. I was particularly interested in correlations relating to NAICS 722 - Food services and drinking places. Do any of these attributes positively or negatively correlate? What is the strength of the correlation? Is there multicollinearity and if so how strong is it?  What do the relationships look like visually?  
 
 __Attributes__
 1. Annual Average No. Establishments (NAICS 722)
