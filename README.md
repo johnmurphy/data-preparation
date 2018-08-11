@@ -4,8 +4,7 @@ This repository contains the logic for preparing several publicly available data
 Sources: 
 1. U.S. Bureau of Labor Statistics (BLS)
 State and County Employment and Wages (NAICS 722 - Food services and drinking places)
-(Quarterly Census of Employment & Wages - QCEW) 
-https://www.bls.gov/cew/datatoc.htm
+[Quarterly Census of Employment & Wages - QCEW](https://www.bls.gov/cew/datatoc.htm)
          
 1. Census Population:
 https://www2.census.gov/programs-surveys/popest/datasets/2010-2017/counties/totals/
