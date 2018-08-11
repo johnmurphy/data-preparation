@@ -43,5 +43,13 @@ GA_corr <-   df_GA_ALL          %>%
   spread(measure, value)        %>% # rows to columns
   drop_na("annual_avg_estabs")  %>% # remove rows where annual_avg_estabs is NA: only one county
   select(-fipscode) # remove fipcode values   
+ 
+ # Generate correlation matrix
+  GA_corr  %>%
+    cor()  %>%
+    corrplot(type = "upper", # display upper portion of matrix
+            method = "number", # display correlation value
+            order = 'FPC' #  first principal component order.
+            ) 
  ```` 
 ![Georgia Correlation Matrix](/images/GeorgiaCorrelationMatrix.png)
