@@ -34,4 +34,3 @@ State and County Employment and Wages (NAICS 722 - Food services and drinking pl
 [Unemployment](https://download.bls.gov/pub/time.series/la/)
 
 
-![Georgia Correlation Matrix](/images/GeorgiaDataCorrelationMatrix.png)
