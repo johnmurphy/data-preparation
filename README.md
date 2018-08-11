@@ -1,16 +1,16 @@
 ### Background/Objective:
 I wanted to understand and analyze the correlations, if any, for the following attributes listed below and prepare the data, from different sources, for further analysis and reporting. I was particularly interested in correlations relating to NAICS 722 - Food services and drinking places. Do any of these attributes positively or negatively correlate? What is the strength of the correlation? Is there multi-collinearity and if so how strong is it?  What do the relationships look like visually?  
-..1. Annual Average No. Establishments (NAICS 722)
-..1. Annual Average No. Employees (NAICS 722)
-..1. Annual Wages - Total (NAICS 722)
-..1. Annual Average Weekly Wage (NAICS 722)
-..1. Population Estimates      
-..1. Net Migration
-..1. Bank Branches - Total
-..1. Bank Deposits - Total
-..1. Median Household Income
-..1. Housing Units Estimates
-..1. Unemployment Rates
+⋅⋅1. Annual Average No. Establishments (NAICS 722)
+⋅⋅1. Annual Average No. Employees (NAICS 722)
+⋅⋅1. Annual Wages - Total (NAICS 722)
+⋅⋅1. Annual Average Weekly Wage (NAICS 722)
+⋅⋅1. Population Estimates      
+⋅⋅1. Net Migration
+⋅⋅1. Bank Branches - Total
+⋅⋅1. Bank Deposits - Total
+⋅⋅1. Median Household Income
+⋅⋅1. Housing Units Estimates
+⋅⋅1. Unemployment Rates
 
 
 ### Data Sources: 
