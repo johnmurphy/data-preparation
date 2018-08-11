@@ -1,19 +1,19 @@
-# data-preparation
+#### Background
 This repository contains the logic for preparing several publicly available data sources for consolidated reporting and analysis. Output consists of 13 years of data for Georgia counties, but can be easily be modified to include all US counties. 
 
 #### Objective: 
 
-Annual Average No. Establishement
-Annual Average No. Employees
-Annual Wages - Total
-Annual Average Weekly Wage
-Population Estimates      
-Net Migration
-Bank Branches - Total
-Bank Deposits - Total
-Median Household Income
-Housing Units Estimates
-Unemployment Rates
+1. Annual Average No. Establishement
+1. Annual Average No. Employees
+1. Annual Wages - Total
+1. Annual Average Weekly Wage
+1. Population Estimates      
+1. Net Migration
+1. Bank Branches - Total
+1. Bank Deposits - Total
+1. Median Household Income
+1. Housing Units Estimates
+1. Unemployment Rates
 
 
 
