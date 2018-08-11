@@ -15,8 +15,8 @@ State and County Employment and Wages (NAICS 722 - Food services and drinking pl
 1. Federal Deposit Insurance Corporation (FDIC): [Branch Office Deposits](https://www5.fdic.gov/idasp/warp_download_all.asp)               
          
 1. Federal Reserve Economic Data | FRED | St. Louis Fed
-FRED Household Median Income (Used quantmod package and getSymbols() to access data)
-[Link](https://fred.stlouisfed.org/)
+(Used quantmod package and getSymbols() to access data)
+[FRED Household Median Income ](https://fred.stlouisfed.org/)
          
 1. BLS Unemployment:
-[Link](https://download.bls.gov/pub/time.series/la/)
+[Unemployment](https://download.bls.gov/pub/time.series/la/)
