@@ -31,7 +31,7 @@ library(Hmisc, quietly=TRUE)
 
 ******************************************************************************************'
 
-# Set working directory (local of source files)
+# Set working directory (local for source files)
 setwd("C:/BLS")
 
 BLSFiles <- list.files(pattern='_annual_singlefile.zip$') # readr can read csv in zip files. No need to unzip
