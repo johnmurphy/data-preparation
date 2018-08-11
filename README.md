@@ -1,11 +1,23 @@
 # data-preparation
 This repository contains the logic for preparing several publicly available data sources for consolidated reporting and analysis. Output consists of 13 years of data for Georgia counties, but can be easily be modified to include all US counties. 
 
-### Objective
+#### Objective: 
+
+Annual Average No. Establishement
+Annual Average No. Employees
+Annual Wages - Total
+Annual Average Weekly Wage
+Population Estimates      
+Net Migration
+Bank Branches - Total
+Bank Deposits - Total
+Median Household Income
+Housing Units Estimates
+Unemployment Rates
 
 
 
-### Data Sources: 
+#### Data Sources: 
 1. U.S. Bureau of Labor Statistics (BLS)
 State and County Employment and Wages (NAICS 722 - Food services and drinking places)
 [Quarterly Census of Employment & Wages - QCEW](https://www.bls.gov/cew/datatoc.htm)
