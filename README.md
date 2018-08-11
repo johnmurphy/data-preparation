@@ -35,12 +35,13 @@ State and County Employment and Wages (NAICS 722 - Food services and drinking pl
 
 ### Correlation Matrix: 
 
-````# Stage data for visual analysis and correlation matrix
-````GA_corr <-   df_GA_ALL          %>%
-````  filter(year == 2015)          %>% # filter on 2015
-````  select(-c(X,source, year))    %>% # remove source and year columns; Add X if loading from csv
-````  spread(measure, value)        %>% # rows to columns
-````  drop_na("annual_avg_estabs")  %>% # remove rows where annual_avg_estabs is NA: only one county
-````  select(-fipscode) # remove fipcode values   
-  
+````
+# Stage data for visual analysis and correlation matrix
+GA_corr <-   df_GA_ALL          %>%
+  filter(year == 2015)          %>% # filter on 2015
+  select(-c(X,source, year))    %>% # remove source and year columns; Add X if loading from csv
+  spread(measure, value)        %>% # rows to columns
+  drop_na("annual_avg_estabs")  %>% # remove rows where annual_avg_estabs is NA: only one county
+  select(-fipscode) # remove fipcode values   
+ ```` 
 ![Georgia Correlation Matrix](/images/GeorgiaCorrelationMatrix.png)
