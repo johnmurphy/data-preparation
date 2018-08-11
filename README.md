@@ -8,8 +8,6 @@ State and County Employment and Wages (NAICS 722 - Food services and drinking pl
          
 1. Census Population:
 [County Populations 2010-2017](https://www2.census.gov/programs-surveys/popest/datasets/2010-2017/counties/totals/)
-
-
 [County Populations 2000-2009](https://www2.census.gov/programs-surveys/popest/datasets/2000-2009/counties/totals/)
 
 1. Census Housing Units: [Housing Units](https://www.census.gov/data/tables/2017/demo/popest/total-housing-units.html)
