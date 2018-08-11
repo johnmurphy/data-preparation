@@ -25,8 +25,7 @@ State and County Employment and Wages (NAICS 722 - Food services and drinking pl
 
 1. US Census Housing Units: [Housing Units](https://www.census.gov/data/tables/2017/demo/popest/total-housing-units.html)
         
-1. Federal Deposit Insurance Corporation (FDIC): [Branch Office Deposits](https://www5.fdic.gov/idasp/warp_download_all.asp)               
-         
+1. Federal Deposit Insurance Corporation (FDIC): [Branch Office Deposits](https://www5.fdic.gov/idasp/warp_download_all.asp)                    
 1. Federal Reserve Economic Data | FRED | St. Louis Fed
 (Used quantmod package and getSymbols() to access data)
 [FRED Household Median Income ](https://fred.stlouisfed.org/)
@@ -35,4 +34,4 @@ State and County Employment and Wages (NAICS 722 - Food services and drinking pl
 [Unemployment](https://download.bls.gov/pub/time.series/la/)
 
 
-
+![Georgia Correlation Matrix](/images/GeorgiaDataCorrelationMatrix.png)
