@@ -1,7 +1,7 @@
 ### Background/Objective:
 I wanted to understand and analyze the correlations, if any, for the following attributes listed below and prepare the data, from different sources, for further analysis and reporting. I was particularly interested in correlations relating to NAICS 722 - Food services and drinking places. Do any of these attributes positively or negatively correlate? What is the strength of the correlation? Is there multicollinearity and if so how strong is it?  What do the relationships look like visually?  
 
-In addition to understanding and analyzing the correlations, I wanted to think through some hypothetical business cases where a potential predictive or classification model could be leveraged for identifying underserved markets where an organization/individual might invest in or launch a food service, where to advertise or sell advertising, where to target your staff training service, where to set up your distribution operations, and how to better invest your time, capital, and other resources.
+In addition to understanding and analyzing the correlations, I wanted to think through some hypothetical business cases where a potential regression or classification model could be leveraged for identifying underserved markets where an organization/individual might invest in or launch a food service, where to advertise or sell advertising, where to target your staff training service, where to set up your distribution operations, and how to better invest your time, capital, and other resources.
 
 __Attributes__
 1. Annual Average No. Establishments (NAICS 722)
