@@ -55,3 +55,6 @@ GA_corr <-   df_GA_ALL          %>%
             ) 
  ```` 
 ![Georgia Correlation Matrix](/images/GeorgiaCorrelationMatrix.png)
+
+
+![Georgia Scatters Plots](/images/GeorgiaScatterPlots.png)
