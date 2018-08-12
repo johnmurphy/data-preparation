@@ -457,4 +457,51 @@ df_ga_fips %>%
   select(fipscode, countyname) %>%
   write.csv( file = "GeorgiaFipsCodes.csv")
 
+'******************************************************************************************
 
+                                  Data Understanding
+
+******************************************************************************************'
+
+
+# read csv file Load this no need to rerun until new data is available
+# df_GA_ALL <- read.csv("GeorgiaData.csv")
+
+# Data Understanding. Look for missing values, observe number of distinct values, min/max, frequency, proportion, etc
+contents(df_GA_ALL)
+summary(df_GA_ALL)
+describe(df_GA_ALL)
+
+
+# Stage data for visual analysis and correlation matrix
+GA_corr <-   df_GA_ALL          %>%
+  filter(year == 2015)          %>% # filter on 2015
+  select(-c(X,source, year))    %>% # remove source and year columns; Add X if loading from csv
+  spread(measure, value)        %>% # rows to columns
+  drop_na("annual_avg_estabs")  %>% # remove rows where annual_avg_estabs is NA: only one county
+  select(-fipscode) # remove fipcode values    
+
+
+if("GGally" %in% rownames(installed.packages()) == FALSE) {install.packages("GGally")}
+if("corrplot" %in% rownames(installed.packages()) == FALSE) {install.packages("corrplot")}
+
+library(GGally)
+library(corrplot)
+
+#
+#GA_corr %>%
+#  ggpairs(
+#    title = "Georgia Data Scatterplot/Correlation Matrix",
+#          axisLabels = "none")
+
+GA_corr %>%
+   pairs(panel = panel.smooth, pch = 21, bg = "light blue",
+          cex.labels = .75)
+
+# Generate correlation matrix with cor() and corrplot()
+GA_corr  %>%
+   cor() %>%
+   corrplot(type = "upper", # display upper portion of matrix
+            method = "number", # display correlation value
+            order = 'FPC' #  first principal component order.
+            ) 
