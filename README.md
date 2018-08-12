@@ -56,5 +56,11 @@ GA_corr <-   df_GA_ALL          %>%
  ```` 
 ![Georgia Correlation Matrix](/images/GeorgiaCorrelationMatrix.png)
 
-
+### Scatter Plots: 
+````
+GA_corr %>%
+   pairs(panel = panel.smooth, pch = 21, bg = "light blue",
+          cex.labels = .75)
+````          
+          
 ![Georgia Scatters Plots](/images/GeorgiaScatterPlots.png)
