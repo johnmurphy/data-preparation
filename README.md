@@ -61,6 +61,4 @@ GA_corr <-   df_GA_ALL          %>%
 GA_corr %>%
    pairs(panel = panel.smooth, pch = 21, bg = "light blue",
           cex.labels = .75)
-````          
-          
-![Heating Oil Scatter Plots](/images/HeatingOilScatterPlots.png)
+````      
