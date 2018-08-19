@@ -63,4 +63,4 @@ GA_corr %>%
           cex.labels = .75)
 ````          
           
-![Georgia Scatters Plots](/images/GeorgiaScatterPlots.png)
+![Heating Oil Scatter Plots](/images/HeatingOilScatterPlots.png)
