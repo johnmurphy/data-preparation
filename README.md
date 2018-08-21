@@ -62,3 +62,4 @@ GA_corr %>%
    pairs(panel = panel.smooth, pch = 21, bg = "light blue",
           cex.labels = .75)
 ````      
+![Georgia Scatter Plots](/images/GeorgiaScatterPlots.png)
